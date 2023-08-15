@@ -3,7 +3,6 @@ Error when integrating an standalone of my Xtext project into Maven.
 
 
 ```
-Hi
 Exception in thread "main" com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: java.lang.ExceptionInInitializerError
 	at com.google.inject.internal.util.$MapMaker$StrategyImpl.compute(MapMaker.java:553)
 	at com.google.inject.internal.util.$MapMaker$StrategyImpl.compute(MapMaker.java:419)
