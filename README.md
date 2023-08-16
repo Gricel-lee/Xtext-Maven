@@ -1,6 +1,21 @@
 # Xtext-Maven
 Error when integrating an standalone of my Xtext project into Maven.
 
+The main function in Maven is:
+```
+public static void main(String[] args) {
+		
+		System.out.println("Hi");
+		
+		Injector injector = new MyDslStandaloneSetup().createInjectorAndDoEMFRegistration();
+		XtextResourceSet resourceSet = injector.getInstance(XtextResourceSet.class);
+		Resource resource = resourceSet.getResource(URI.createFileURI("./example.mydsl"), true);
+
+		Model model = (Model) resource.getContents().get(0);
+
+```
+
+When running a Maven project with the Xtext .jar included, it recognizes the libraries, but when run the following errors appear related to ```Injector injector = new MyDslStandaloneSetup().createInjectorAndDoEMFRegistration();```:
 
 ```
 Exception in thread "main" com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: com.google.inject.internal.util.$ComputationException: java.lang.ExceptionInInitializerError
