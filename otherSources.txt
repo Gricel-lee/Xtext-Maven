@@ -1,3 +1,8 @@
+## Error posted at:
+https://www.eclipse.org/forums/index.php/m/1860602/#msg_1860602
+
+## Other pages solving this differently...
+
 xtext - export dsl as runnable jar:
 https://thomas.trocha.com/blog/xtext---export-dsl-as-runnable-jar/
 
