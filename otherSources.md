@@ -13,7 +13,7 @@ xtext in maven format
 https://www.nikostotz.de/blog/combine-xcore-xtend-ecore-and-maven/#generateGenModel.mwe2
 
 
-xtext Java
+xtext Java - export as jar (official documentation)
 https://goto40.github.io/self-dsl/xtext_deploy_command_line/
 ```
 ...
