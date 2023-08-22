@@ -11,3 +11,18 @@ https://thomas.trocha.com/blog/xtext---export-dsl-as-runnable-jar/
 
 xtext in maven format
 https://www.nikostotz.de/blog/combine-xcore-xtend-ecore-and-maven/#generateGenModel.mwe2
+
+
+xtext Java
+https://goto40.github.io/self-dsl/xtext_deploy_command_line/
+```
+...
+language = StandardLanguage {
+    ...
+    generator = {
+        generateJavaMain = true
+    }
+    ...
+}
+...
+```
